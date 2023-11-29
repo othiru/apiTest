@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+  Application Form
+{% endblock %}
+
+{% block mainContent %}
+    <div class="mainForm">
+        <div id="example" class="registerChildDiv">
+            {{ form_data|safe }}
+        </div>
+    </div>
+{% endblock %}
